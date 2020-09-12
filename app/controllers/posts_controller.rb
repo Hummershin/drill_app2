@@ -10,8 +10,4 @@ class PostsController < ApplicationController
   def create
     Post.create(memo: params[:memo])
   end
-
-  def show
-    
-  end
 end
